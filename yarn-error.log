@@ -1,0 +1,76 @@
+Arguments: 
+  /home/bwpark/.nvm/versions/node/v12.13.0/bin/node /mnt/c/Program Files (x86)/Yarn/bin/yarn.js
+
+PATH: 
+  /home/bwpark/.nvm/versions/node/v12.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/bwpark/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSCLI/bin/:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/bwpark/.windows-build-tools/python27/:/mnt/c/Users/bwpark/AppData/Local/Programs/Python/Python37-32/Scripts/:/mnt/c/Users/bwpark/AppData/Local/Programs/Python/Python37-32/:/mnt/c/Users/bwpark/.windows-build-tools/python27/:/mnt/c/Users/bwpark/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/bwpark/AppData/Roaming/nvm:/mnt/c/Users/bwpark/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/bwpark/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/bwpark/AppData/Local/Yarn/bin:/mnt/c/Program Files/MongoDB/Server/4.2/bin:/mnt/c/Users/bwpark/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "004",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack",
+      "dev": "webpack-dev-server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@babel/core": "^7.10.2",
+      "@babel/preset-env": "^7.10.2",
+      "@ckeditor/ckeditor5-build-balloon": "^19.0.1",
+      "@ckeditor/ckeditor5-build-classic": "^19.0.1",
+      "@ckeditor/ckeditor5-editor-classic": "^19.0.1",
+      "@ckeditor/ckeditor5-adapter-ckfinder": "^19.0.1",
+      "@ckeditor/ckeditor5-alignment": "^19.0.1",
+      "@ckeditor/ckeditor5-autoformat": "^19.0.1",
+      "@ckeditor/ckeditor5-basic-styles": "^19.0.1",
+      "@ckeditor/ckeditor5-block-quote": "^19.0.1",
+      "@ckeditor/ckeditor5-ckfinder": "^19.0.1",
+      "@ckeditor/ckeditor5-essentials": "^19.0.1",
+      "@ckeditor/ckeditor5-highlight": "^19.0.1",
+      "axios": "^0.19.2",
+      "babel-loader": "^8.1.0",
+      "cors": "^2.8.5",
+      "css-loader": "^3.5.3",
+      "express": "^4.17.1",
+      "file-loader": "^6.0.0",
+      "html-webpack-plugin": "^4.3.0",
+      "multer": "^1.4.2",
+      "raw-loader": "^4.0.1",
+      "sass-loader": "^8.0.2",
+      "style-loader": "^1.2.1",
+      "url-loader": "^4.1.0",
+      "vue": "^2.6.11",
+      "vue-loader": "^15.9.2",
+      "vue-style-loader": "^4.1.2",
+      "vue-template-compiler": "^2.6.11",
+      "vuex": "^3.4.0",
+      "webpack": "^4.43.0",
+      "webpack-dev-server": "^3.11.0"
+    },
+    "devDependencies": {
+      "webpack-cli": "^3.3.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
